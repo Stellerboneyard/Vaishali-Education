@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaishali Education — Premier Coaching for JEE, NEET, Board Exams | Muzaffarpur</title>
+  <meta name="description" content="Vaishali Education is Muzaffarpur's premier coaching institute for JEE, NEET, NDA, CUET, and Board Exams (CBSE & Bihar Board). Expert faculty, proven results. Enroll today!">
+  <meta name="keywords" content="Vaishali Education, coaching Muzaffarpur, JEE coaching, NEET coaching, Bihar Board, CBSE, NDA, CUET, physics classes, english classes">
+  <meta name="author" content="Vaishali Education">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Vaishali Education — Premier Coaching for JEE, NEET & Board Exams">
+  <meta property="og:description" content="Muzaffarpur's top coaching institute with expert faculty and proven results.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='20' width='100' height='100' fill='%237B68EE'/><text x='50' y='68' text-anchor='middle' font-size='55' font-weight='bold' fill='white' font-family='sans-serif'>VE</text></svg>">
+</head>
+<body>
+
+  <!-- ═══════════════ PARTICLE CANVAS ═══════════════ -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- ═══════════════ PRELOADER ═══════════════ -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-logo"><span>VE</span></div>
+    <div class="preloader-text">INITIALIZING</div>
+    <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+  </div>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">VE</div>
+        <div class="nav-logo-text">
+          <span class="nav-logo-name">Vaishali Education</span>
+          <span class="nav-logo-tagline">Excellence in Education</span>
+        </div>
+      </a>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#courses" class="nav-link">Courses</a>
+        <a href="#results" class="nav-link">Results</a>
+        <a href="#faculty" class="nav-link">Faculty</a>
+        <a href="#batches" class="nav-link">Batches</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <div class="nav-cta">
+          <a href="#" class="btn btn-gold btn-sm" data-open-modal>Book Free Demo</a>
+        </div>
+      </div>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO SECTION ═══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-glow hero-glow-3"></div>
+
+    <div class="hero-orb">
+      <div class="hero-orb-core"></div>
+      <div class="hero-orb-ring"></div>
+      <div class="hero-orb-ring hero-orb-ring-2"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Admissions Open for 2026–27 Session
+      </div>
+
+      <h1 class="hero-title">
+        <span class="line">Ignite Your</span>
+        <span class="line"><span class="highlight">Future</span> With</span>
+        <span class="line"><span class="gold-highlight">Vaishali Education</span></span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Muzaffarpur's most trusted coaching institute for competitive &amp; board exam preparation. Where discipline meets dreams.
+      </p>
+
+      <div class="hero-typing-line">
+        <span id="typing-text"></span><span class="typing-cursor"></span>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#courses" class="btn btn-primary">
+          Explore Courses <span class="btn-icon">→</span>
+        </a>
+        <a href="#results" class="btn btn-outline">
+          Our Results <span class="btn-icon">↗</span>
+        </a>
+        <a href="#" class="btn btn-gold" data-open-modal>
+          Book Free Demo <span class="btn-icon">🎯</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse"></div>
+      <span class="scroll-text">Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════ STATS STRIP ═══════════════ -->
+  <div class="stats-strip reveal">
+    <div class="container">
+      <div class="stat-item">
+        <div class="stat-number">
+          <span data-count="15" data-suffix="+">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Years of Excellence</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">
+          <span data-count="10000" data-suffix="+">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Students Mentored</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">
+          <span data-count="95" data-suffix="%">0</span><span class="stat-suffix">%</span>
+        </div>
+        <div class="stat-label">Selection Rate</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">
+          <span data-count="500" data-suffix="+">0</span><span class="stat-suffix">+</span>
+        </div>
+        <div class="stat-label">Toppers Produced</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════ ABOUT SECTION ═══════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal-left">
+          <img src="assets/coaching_center.png" alt="Vaishali Education classroom interior with students studying" loading="lazy">
+          <div class="about-image-accent"></div>
+        </div>
+
+        <div class="about-text reveal-right">
+          <div class="section-label">About Us</div>
+          <h2 class="section-title">
+            Building <span class="gradient-text">Champions</span> Since 2010
+          </h2>
+          <p class="section-subtitle">
+            Vaishali Education was founded with a singular vision — to provide world-class coaching for competitive and board exams right here in Muzaffarpur. Under the leadership of <strong>Manoj Sir</strong>, we have transformed thousands of students into toppers, doctors, and engineers.
+          </p>
+          <p class="section-subtitle" style="margin-top: 16px;">
+            Our methodology combines rigorous academics with personalised mentoring, ensuring every student receives the attention they deserve. We cover Class 8 to 12 under CBSE &amp; Bihar Board curricula, with specialised tracks for JEE, NEET, NDA, and CUET.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">📘</div>
+              <span class="about-feature-text">CBSE & Bihar Board</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🎯</div>
+              <span class="about-feature-text">JEE & NEET Focused</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">👨‍🏫</div>
+              <span class="about-feature-text">Expert Faculty</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">📍</div>
+              <span class="about-feature-text">Class 8 to 12</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ BANNER SHOWCASE ═══════════════ -->
+  <section class="banner-showcase">
+    <div class="container">
+      <div class="banner-showcase-header reveal">
+        <div class="section-label">Our Identity</div>
+        <h2 class="section-title">
+          The <span class="gradient-text">Brand</span> You Trust
+        </h2>
+      </div>
+
+      <div class="banner-showcase-grid">
+        <div class="banner-frame reveal-left">
+          <img src="assets/banner1.jpeg" alt="Vaishali Physics Classes banner — JEE, NEET, Board, NDA, CUET coaching by Manoj Sir" loading="lazy">
+          <span class="banner-frame-label">Vaishali Physics Classes</span>
+        </div>
+        <div class="banner-frame reveal-right">
+          <img src="assets/banner2.jpeg" alt="Vaishali Education banner — Physics by Manoj Sir, English by Kumar Adarsh" loading="lazy">
+          <span class="banner-frame-label">Vaishali Education</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WHY CHOOSE US ═══════════════ -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="why-us-header reveal">
+        <div class="section-label">Why Vaishali Education</div>
+        <h2 class="section-title">
+          What Sets Us <span class="gradient-text">Apart</span>
+        </h2>
+        <p class="section-subtitle">
+          We don't just teach — we build a foundation for lifelong success with proven strategies and dedicated mentorship.
+        </p>
+      </div>
+
+      <div class="why-us-grid stagger-children">
+        <div class="why-card reveal">
+          <div class="why-card-icon">🧠</div>
+          <h3 class="why-card-title">Concept-First Approach</h3>
+          <p class="why-card-desc">We believe in deep conceptual understanding over rote memorisation. Every topic is taught from first principles, building unshakeable clarity.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-card-icon">📊</div>
+          <h3 class="why-card-title">Regular Testing & Analysis</h3>
+          <p class="why-card-desc">Weekly tests, monthly assessments, and detailed performance analytics help students track progress and identify weak areas early.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-card-icon">🏆</div>
+          <h3 class="why-card-title">Proven Track Record</h3>
+          <p class="why-card-desc">Year after year, our students secure top ranks in JEE, NEET, and board exams. Results speak louder than promises.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-card-icon">👥</div>
+          <h3 class="why-card-title">Small Batch Size</h3>
+          <p class="why-card-desc">Limited seats per batch ensure personalised attention. Every student gets time with our faculty for doubt clearing and mentorship.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-card-icon">📚</div>
+          <h3 class="why-card-title">Comprehensive Study Material</h3>
+          <p class="why-card-desc">In-house curated study material, practice sheets, and previous year papers aligned with the latest exam patterns and syllabus.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-card-icon">🤝</div>
+          <h3 class="why-card-title">Parent-Teacher Connect</h3>
+          <p class="why-card-desc">Regular parent-teacher meetings and progress reports keep families informed and involved in their child's academic journey.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ COURSES SECTION ═══════════════ -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <div class="courses-header reveal">
+        <div class="section-label">Our Programs</div>
+        <h2 class="section-title">
+          Courses Designed for <span class="gradient-text">Success</span>
+        </h2>
+        <p class="section-subtitle">
+          Comprehensive coaching programs for every competitive and board exam, tailored for CBSE &amp; Bihar Board students.
+        </p>
+      </div>
+
+      <div class="courses-grid">
+        <!-- NEET -->
+        <div class="course-card reveal">
+          <div class="course-card-header">
+            <div class="course-icon">🩺</div>
+            <span class="course-badge popular">Most Popular</span>
+          </div>
+          <h3 class="course-title">NEET (UG) Preparation</h3>
+          <p class="course-desc">Complete medical entrance preparation covering Physics, Chemistry, and Biology. Expert faculty with hospital-based practical insights and NCERT-focused methodology.</p>
+          <div class="course-features">
+            <span class="course-feature-tag">Physics</span>
+            <span class="course-feature-tag">Chemistry</span>
+            <span class="course-feature-tag">Biology</span>
+            <span class="course-feature-tag">Mock Tests</span>
+            <span class="course-feature-tag">NCERT Focused</span>
+          </div>
+          <div class="course-card-footer">
+            <div class="course-meta">
+              <span class="course-meta-item">📅 Class 11 & 12</span>
+              <span class="course-meta-item">⏱ 2 Year Program</span>
+            </div>
+            <a href="#contact" class="course-link">Enquire Now →</a>
+          </div>
+        </div>
+
+        <!-- JEE -->
+        <div class="course-card reveal">
+          <div class="course-card-header">
+            <div class="course-icon">⚡</div>
+            <span class="course-badge popular">High Demand</span>
+          </div>
+          <h3 class="course-title">JEE Main + Advanced</h3>
+          <p class="course-desc">Rigorous engineering entrance coaching with deep focus on Physics (by Manoj Sir), Mathematics, and Chemistry. Problem-solving approach with extensive practice.</p>
+          <div class="course-features">
+            <span class="course-feature-tag">Physics by Manoj Sir</span>
+            <span class="course-feature-tag">Mathematics</span>
+            <span class="course-feature-tag">Chemistry</span>
+            <span class="course-feature-tag">DPP Sheets</span>
+          </div>
+          <div class="course-card-footer">
+            <div class="course-meta">
+              <span class="course-meta-item">📅 Class 11 & 12</span>
+              <span class="course-meta-item">⏱ 2 Year Program</span>
+            </div>
+            <a href="#contact" class="course-link">Enquire Now →</a>
+          </div>
+        </div>
+
+        <!-- Foundation (8-10) -->
+        <div class="course-card reveal">
+          <div class="course-card-header">
+            <div class="course-icon">🌱</div>
+            <span class="course-badge new">Foundation</span>
+          </div>
+          <h3 class="course-title">Foundation — Class 8, 9 &amp; 10</h3>
+          <p class="course-desc">Build a rock-solid foundation early. Our Class 8–10 program covers CBSE &amp; Bihar Board syllabus with an early introduction to competitive exam concepts for future JEE/NEET aspirants.</p>
+          <div class="course-features">
+            <span class="course-feature-tag">CBSE Board</span>
+            <span class="course-feature-tag">Bihar Board</span>
+            <span class="course-feature-tag">Science</span>
+            <span class="course-feature-tag">Maths</span>
+            <span class="course-feature-tag">English</span>
+            <span class="course-feature-tag">Olympiad Prep</span>
+          </div>
+          <div class="course-card-footer">
+            <div class="course-meta">
+              <span class="course-meta-item">📅 Class 8, 9 & 10</span>
+              <span class="course-meta-item">⏱ 1–3 Years</span>
+            </div>
+            <a href="#contact" class="course-link">Enquire Now →</a>
+          </div>
+        </div>
+
+        <!-- Board Exams 11-12 -->
+        <div class="course-card reveal">
+          <div class="course-card-header">
+            <div class="course-icon">📖</div>
+            <span class="course-badge popular">Essential</span>
+          </div>
+          <h3 class="course-title">Board Excellence — Class 11 &amp; 12</h3>
+          <p class="course-desc">Dedicated coaching for Class 11th &amp; 12th board exams — CBSE and Bihar Board. Complete syllabus coverage with chapter-wise tests and board-pattern practice papers.</p>
+          <div class="course-features">
+            <span class="course-feature-tag">CBSE Board</span>
+            <span class="course-feature-tag">Bihar Board</span>
+            <span class="course-feature-tag">Physics</span>
+            <span class="course-feature-tag">English</span>
+            <span class="course-feature-tag">All Subjects</span>
+          </div>
+          <div class="course-card-footer">
+            <div class="course-meta">
+              <span class="course-meta-item">📅 Class 11 & 12</span>
+              <span class="course-meta-item">⏱ 1–2 Years</span>
+            </div>
+            <a href="#contact" class="course-link">Enquire Now →</a>
+          </div>
+        </div>
+
+        <!-- NDA / CUET / Other -->
+        <div class="course-card reveal">
+          <div class="course-card-header">
+            <div class="course-icon">🎖️</div>
+            <span class="course-badge new">New Batch</span>
+          </div>
+          <h3 class="course-title">NDA, CUET &amp; Competitions</h3>
+          <p class="course-desc">Specialised preparation for NDA, CUET, and other competitive examinations. Combined coaching approach with dedicated test series and interview preparation.</p>
+          <div class="course-features">
+            <span class="course-feature-tag">NDA</span>
+            <span class="course-feature-tag">CUET</span>
+            <span class="course-feature-tag">Aptitude</span>
+            <span class="course-feature-tag">GK & Reasoning</span>
+            <span class="course-feature-tag">English</span>
+          </div>
+          <div class="course-card-footer">
+            <div class="course-meta">
+              <span class="course-meta-item">📅 After 10th/12th</span>
+              <span class="course-meta-item">⏱ 6–12 Months</span>
+            </div>
+            <a href="#contact" class="course-link">Enquire Now →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ RESULTS SECTION ═══════════════ -->
+  <section class="results" id="results">
+    <div class="container">
+      <div class="results-header reveal">
+        <div class="section-label">Our Achievements</div>
+        <h2 class="section-title">
+          A Legacy of <span class="gold-text">Excellence</span>
+        </h2>
+        <p class="section-subtitle">
+          Our students consistently achieve outstanding results. Their success is our greatest pride and your assurance of quality.
+        </p>
+      </div>
+
+      <div class="results-year-filter reveal">
+        <button class="year-btn active">2025</button>
+        <button class="year-btn">2024</button>
+        <button class="year-btn">2023</button>
+        <button class="year-btn">2022</button>
+        <button class="year-btn">All Time</button>
+      </div>
+
+      <div class="results-showcase stagger-children">
+        <div class="topper-card reveal">
+          <span class="topper-rank">AIR 245</span>
+          <div class="topper-avatar">
+            <div style="width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#7B68EE,#00D4FF);display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:#fff;font-family:'Outfit',sans-serif;border:3px solid #050510;">R</div>
+          </div>
+          <h4 class="topper-name">Rahul Kumar</h4>
+          <span class="topper-exam">NEET 2025</span>
+          <span class="topper-score">Score: 695/720</span>
+        </div>
+
+        <div class="topper-card reveal">
+          <span class="topper-rank">AIR 312</span>
+          <div class="topper-avatar">
+            <div style="width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#FFB800,#FF8C00);display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:#fff;font-family:'Outfit',sans-serif;border:3px solid #050510;">P</div>
+          </div>
+          <h4 class="topper-name">Priya Sharma</h4>
+          <span class="topper-exam">JEE Advanced 2025</span>
+          <span class="topper-score">Score: 289/360</span>
+        </div>
+
+        <div class="topper-card reveal">
+          <span class="topper-rank">AIR 478</span>
+          <div class="topper-avatar">
+            <div style="width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#00E88F,#00D4FF);display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:#fff;font-family:'Outfit',sans-serif;border:3px solid #050510;">A</div>
+          </div>
+          <h4 class="topper-name">Amit Ranjan</h4>
+          <span class="topper-exam">JEE Main 2025</span>
+          <span class="topper-score">Percentile: 99.82</span>
+        </div>
+
+        <div class="topper-card reveal">
+          <span class="topper-rank">State Topper</span>
+          <div class="topper-avatar">
+            <div style="width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#FF4D6A,#FF8C42);display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;color:#fff;font-family:'Outfit',sans-serif;border:3px solid #050510;">S</div>
+          </div>
+          <h4 class="topper-name">Sneha Kumari</h4>
+          <span class="topper-exam">Bihar Board 2025</span>
+          <span class="topper-score">Score: 485/500</span>
+        </div>
+      </div>
+
+      <div class="results-stats stagger-children" style="margin-top: 48px;">
+        <div class="result-stat-card reveal">
+          <div class="result-stat-value purple" data-count="340" data-suffix="+">0</div>
+          <div class="result-stat-label">NEET Selections (2025)</div>
+          <div class="result-stat-bar">
+            <div class="result-stat-bar-fill purple" data-width="92%"></div>
+          </div>
+        </div>
+
+        <div class="result-stat-card reveal">
+          <div class="result-stat-value cyan" data-count="210" data-suffix="+">0</div>
+          <div class="result-stat-label">JEE Qualifiers (2025)</div>
+          <div class="result-stat-bar">
+            <div class="result-stat-bar-fill cyan" data-width="85%"></div>
+          </div>
+        </div>
+
+        <div class="result-stat-card reveal">
+          <div class="result-stat-value gold" data-count="98" data-suffix="%">0</div>
+          <div class="result-stat-label">Board Exam Pass Rate</div>
+          <div class="result-stat-bar">
+            <div class="result-stat-bar-fill gold" data-width="98%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FACULTY SECTION ═══════════════ -->
+  <section class="faculty" id="faculty">
+    <div class="container">
+      <div class="faculty-header reveal">
+        <div class="section-label">Meet Our Experts</div>
+        <h2 class="section-title">
+          Learn From the <span class="gradient-text">Best Minds</span>
+        </h2>
+        <p class="section-subtitle">
+          Our faculty members bring decades of teaching experience and a passion for student success that makes all the difference.
+        </p>
+      </div>
+
+      <div class="faculty-grid stagger-children">
+        <!-- Manoj Sir - Physics (Founder) -->
+        <div class="faculty-card reveal">
+          <div class="faculty-card-image">
+            <div style="width:100%;height:100%;background:linear-gradient(135deg, #1a1040 0%, #0a0a2e 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;">
+              <div style="width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#7B68EE,#00D4FF);display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:800;color:#fff;font-family:'Outfit',sans-serif;box-shadow:0 0 40px rgba(123,104,238,0.4);">M</div>
+              <span style="padding:4px 14px;border-radius:20px;background:linear-gradient(135deg,#FFB800,#FF8C00);color:#000;font-size:11px;font-weight:700;letter-spacing:1px;">FOUNDER</span>
+            </div>
+          </div>
+          <div class="faculty-card-info">
+            <h4 class="faculty-name">Manoj Sir</h4>
+            <span class="faculty-subject">Physics</span>
+            <span class="faculty-exp">15+ Years Experience</span>
+            <div class="faculty-tags">
+              <span class="faculty-tag">JEE Expert</span>
+              <span class="faculty-tag">NEET</span>
+              <span class="faculty-tag">Board</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kumar Adarsh - English -->
+        <div class="faculty-card reveal">
+          <div class="faculty-card-image">
+            <img src="assets/kumar_adarsh_1.jpeg" alt="Kumar Adarsh — English Faculty at Vaishali Education" loading="lazy">
+          </div>
+          <div class="faculty-card-info">
+            <h4 class="faculty-name">Kumar Adarsh</h4>
+            <span class="faculty-subject">English</span>
+            <span class="faculty-exp">10+ Years Experience</span>
+            <div class="faculty-tags">
+              <span class="faculty-tag">CUET</span>
+              <span class="faculty-tag">Board</span>
+              <span class="faculty-tag">Grammar</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chemistry Faculty -->
+        <div class="faculty-card reveal">
+          <div class="faculty-card-image">
+            <div style="width:100%;height:100%;background:linear-gradient(135deg, #1a0a20 0%, #0a0a2e 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;">
+              <div style="width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#FF4D6A,#FF8C42);display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:800;color:#fff;font-family:'Outfit',sans-serif;box-shadow:0 0 40px rgba(255,77,106,0.4);">🧪</div>
+              <span style="padding:4px 14px;border-radius:20px;background:rgba(255,77,106,0.15);color:#FF4D6A;font-size:11px;font-weight:700;letter-spacing:1px;">CHEMISTRY</span>
+            </div>
+          </div>
+          <div class="faculty-card-info">
+            <h4 class="faculty-name">Chemistry Faculty</h4>
+            <span class="faculty-subject">Chemistry</span>
+            <span class="faculty-exp">12+ Years Experience</span>
+            <div class="faculty-tags">
+              <span class="faculty-tag">Organic</span>
+              <span class="faculty-tag">Inorganic</span>
+              <span class="faculty-tag">Physical</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mathematics Faculty -->
+        <div class="faculty-card reveal">
+          <div class="faculty-card-image">
+            <div style="width:100%;height:100%;background:linear-gradient(135deg, #0a1520 0%, #0a0a2e 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;">
+              <div style="width:100px;height:100px;border-radius:50%;background:linear-gradient(135deg,#FFB800,#FF8C00);display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:800;color:#fff;font-family:'Outfit',sans-serif;box-shadow:0 0 40px rgba(255,184,0,0.4);">∑</div>
+              <span style="padding:4px 14px;border-radius:20px;background:rgba(255,184,0,0.15);color:#FFB800;font-size:11px;font-weight:700;letter-spacing:1px;">MATHEMATICS</span>
+            </div>
+          </div>
+          <div class="faculty-card-info">
+            <h4 class="faculty-name">Mathematics Faculty</h4>
+            <span class="faculty-subject">Mathematics</span>
+            <span class="faculty-exp">10+ Years Experience</span>
+            <div class="faculty-tags">
+              <span class="faculty-tag">JEE</span>
+              <span class="faculty-tag">Calculus</span>
+              <span class="faculty-tag">Algebra</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="testimonials-header reveal">
+        <div class="section-label">Student Voices</div>
+        <h2 class="section-title">
+          What Our <span class="gradient-text">Students Say</span>
+        </h2>
+        <p class="section-subtitle">
+          Real stories from real students who transformed their academic journey with Vaishali Education.
+        </p>
+      </div>
+
+      <div class="testimonial-carousel reveal-scale">
+        <div class="testimonial-track" id="testimonial-track">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"Manoj Sir's physics teaching completely changed my understanding of the subject. His concept-first approach helped me crack NEET with a score I never thought possible. Vaishali Education is the best decision I ever made."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">
+                  <div style="width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#7B68EE,#00D4FF);display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;color:#fff;font-family:'Outfit',sans-serif;">RK</div>
+                </div>
+                <div class="testimonial-author-info">
+                  <span class="testimonial-author-name">Rahul Kumar</span>
+                  <span class="testimonial-author-role">NEET 2025 — AIR 245</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"The personalised attention at Vaishali Education is unmatched. Small batch sizes meant every doubt was cleared. Kumar Adarsh Sir's English classes made the language so easy and enjoyable. I scored 98% in boards!"</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">
+                  <div style="width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#FFB800,#FF8C00);display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;color:#fff;font-family:'Outfit',sans-serif;">SK</div>
+                </div>
+                <div class="testimonial-author-info">
+                  <span class="testimonial-author-name">Sneha Kumari</span>
+                  <span class="testimonial-author-role">Bihar Board 2025 — State Topper</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"Coming from a small town, I had doubts about competing at the national level. But the rigorous test series and mentorship at Vaishali Education prepared me so well that I cleared JEE Advanced on my first attempt."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">
+                  <div style="width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#00E88F,#00D4FF);display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;color:#fff;font-family:'Outfit',sans-serif;">AR</div>
+                </div>
+                <div class="testimonial-author-info">
+                  <span class="testimonial-author-name">Amit Ranjan</span>
+                  <span class="testimonial-author-role">JEE Advanced 2025 — AIR 478</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-stars">★★★★★</div>
+              <p class="testimonial-text">"As a parent, I'm extremely satisfied with the progress my son has made at Vaishali Education. The regular PTMs and performance updates gave us complete visibility into his preparation. Truly a world-class coaching experience."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">
+                  <div style="width:100%;height:100%;border-radius:50%;background:linear-gradient(135deg,#FF4D6A,#FF8C42);display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;color:#fff;font-family:'Outfit',sans-serif;">RS</div>
+                </div>
+                <div class="testimonial-author-info">
+                  <span class="testimonial-author-name">Rajesh Singh</span>
+                  <span class="testimonial-author-role">Parent of JEE Qualifier</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-nav">
+          <button class="testimonial-dot active" aria-label="Slide 1"></button>
+          <button class="testimonial-dot" aria-label="Slide 2"></button>
+          <button class="testimonial-dot" aria-label="Slide 3"></button>
+          <button class="testimonial-dot" aria-label="Slide 4"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ UPCOMING BATCHES ═══════════════ -->
+  <section class="batches" id="batches">
+    <div class="container">
+      <div class="batches-header reveal">
+        <div class="section-label">Upcoming Batches</div>
+        <h2 class="section-title">
+          New Sessions <span class="gradient-text">Starting Soon</span>
+        </h2>
+        <p class="section-subtitle">
+          Secure your seat in our upcoming batches. Limited seats available per batch to ensure personalised attention.
+        </p>
+      </div>
+
+      <div class="batches-table reveal">
+        <div class="batch-row header">
+          <span>Program</span>
+          <span>Start Date</span>
+          <span>Timing</span>
+          <span>Mode</span>
+          <span>Availability</span>
+        </div>
+
+        <div class="batch-row">
+          <span class="batch-course-name">NEET 2027 — 2 Year Program</span>
+          <span class="batch-date">15 July 2026</span>
+          <span class="batch-time">7:00 AM – 12:00 PM</span>
+          <span class="batch-mode"><span class="batch-mode-tag offline">Offline</span></span>
+          <span class="batch-seats"><span class="seats-left">12 seats left</span></span>
+        </div>
+
+        <div class="batch-row">
+          <span class="batch-course-name">JEE Main + Advanced — 2 Year</span>
+          <span class="batch-date">15 July 2026</span>
+          <span class="batch-time">1:00 PM – 6:00 PM</span>
+          <span class="batch-mode"><span class="batch-mode-tag offline">Offline</span></span>
+          <span class="batch-seats"><span class="seats-left">8 seats left</span></span>
+        </div>
+
+        <div class="batch-row">
+          <span class="batch-course-name">Board Excellence — Class 11</span>
+          <span class="batch-date">1 August 2026</span>
+          <span class="batch-time">3:00 PM – 6:00 PM</span>
+          <span class="batch-mode"><span class="batch-mode-tag hybrid">Hybrid</span></span>
+          <span class="batch-seats"><span class="seats-left">20 seats left</span></span>
+        </div>
+
+        <div class="batch-row">
+          <span class="batch-course-name">NDA Crash Course</span>
+          <span class="batch-date">20 July 2026</span>
+          <span class="batch-time">9:00 AM – 1:00 PM</span>
+          <span class="batch-mode"><span class="batch-mode-tag offline">Offline</span></span>
+          <span class="batch-seats"><span class="seats-left">15 seats left</span></span>
+        </div>
+
+        <div class="batch-row">
+          <span class="batch-course-name">CUET Preparation Batch</span>
+          <span class="batch-date">1 August 2026</span>
+          <span class="batch-time">4:00 PM – 7:00 PM</span>
+          <span class="batch-mode"><span class="batch-mode-tag online">Online</span></span>
+          <span class="batch-seats"><span class="seats-left">25 seats left</span></span>
+        </div>
+
+        <div class="batch-row">
+          <span class="batch-course-name">Board Excellence — Class 12</span>
+          <span class="batch-date">10 July 2026</span>
+          <span class="batch-time">7:00 AM – 11:00 AM</span>
+          <span class="batch-mode"><span class="batch-mode-tag offline">Offline</span></span>
+          <span class="batch-seats"><span class="seats-left">5 seats left</span></span>
+        </div>
+
+        <div class="batch-row">
+          <span class="batch-course-name">Foundation — Class 8, 9 & 10</span>
+          <span class="batch-date">1 August 2026</span>
+          <span class="batch-time">2:00 PM – 5:00 PM</span>
+          <span class="batch-mode"><span class="batch-mode-tag offline">Offline</span></span>
+          <span class="batch-seats"><span class="seats-left">30 seats left</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SCHOLARSHIP ═══════════════ -->
+  <section class="scholarship" id="scholarship">
+    <div class="container">
+      <div class="scholarship-card reveal-scale">
+        <div class="scholarship-icon">🎓</div>
+        <h2 class="section-title">
+          Merit-Based <span class="gold-text">Scholarship Program</span>
+        </h2>
+        <p class="scholarship-desc">
+          We believe talent should never be limited by financial constraints. Our merit-based scholarship program offers up to 100% fee waiver for deserving students.
+        </p>
+        <div class="scholarship-features">
+          <div class="scholarship-feature">
+            <span class="check-icon">✓</span>
+            <span>Up to 100% Fee Waiver</span>
+          </div>
+          <div class="scholarship-feature">
+            <span class="check-icon">✓</span>
+            <span>Based on Entrance Test</span>
+          </div>
+          <div class="scholarship-feature">
+            <span class="check-icon">✓</span>
+            <span>Free Study Material</span>
+          </div>
+          <div class="scholarship-feature">
+            <span class="check-icon">✓</span>
+            <span>Special Doubt Sessions</span>
+          </div>
+        </div>
+        <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+          <a href="#" class="btn btn-gold" data-open-modal>Apply for Scholarship</a>
+          <a href="tel:9006332152" class="btn btn-outline">Call: 9006332152</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FAQ SECTION ═══════════════ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="faq-header reveal">
+        <div class="section-label">Common Questions</div>
+        <h2 class="section-title">
+          Frequently Asked <span class="gradient-text">Questions</span>
+        </h2>
+        <p class="section-subtitle">
+          Everything you need to know about admissions, courses, and our teaching methodology.
+        </p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item active reveal">
+          <button class="faq-question">
+            <span>What courses does Vaishali Education offer?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              We offer comprehensive coaching for JEE (Mains + Advanced), NEET (UG), Board Exams (Class 11 &amp; 12 for CBSE &amp; Bihar Board), NDA, CUET, and other competitive examinations. Our programs are designed with a concept-first approach and include regular testing, study materials, and personalised mentorship.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>What is the admission process?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Admission is based on a simple entrance test followed by a counselling session. You can book a free demo class first to experience our teaching methodology. After the entrance test, eligible students may also qualify for our merit-based scholarship program offering up to 100% fee waiver.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>What are the batch sizes?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              We maintain small batch sizes of 25–35 students to ensure personalised attention. This allows our faculty to address individual doubts, monitor progress closely, and provide targeted guidance to each student.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>Do you provide study material?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Yes, we provide comprehensive in-house study material that includes theory notes, solved examples, daily practice problems (DPPs), previous year question papers, and chapter-wise test series — all aligned with the latest exam patterns and NCERT syllabus.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>Where is your centre located in Muzaffarpur?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Our centre is located at I.G. Colony, Bhagwanpur, Muzaffarpur. It is fully equipped with modern classrooms, study areas, and all necessary facilities for comprehensive learning.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>Can I attend a free demo class before enrolling?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Absolutely! We encourage all prospective students to attend a free demo class. This helps you experience our teaching style, meet the faculty, and understand our methodology before making a commitment. You can book a demo class through our website or by calling us directly.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            <span>Do you offer online classes as well?</span>
+            <span class="faq-toggle">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Yes, we offer hybrid mode for select programs where students can attend classes both offline at our centres and online from home. Our CUET batch is available in fully online mode. Contact us to know which programs offer online/hybrid options.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT SECTION ═══════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="why-us-header reveal" style="margin-bottom: 48px;">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">
+          Ready to <span class="gradient-text">Begin?</span>
+        </h2>
+        <p class="section-subtitle">
+          Have questions? Want to visit our centre? Reach out to us — we're here to guide you every step of the way.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-card reveal-left">
+          <h3 style="font-family:var(--font-heading);font-size:20px;font-weight:700;margin-bottom:8px;">Contact Information</h3>
+          <p style="font-size:14px;color:var(--text-secondary);margin-bottom:16px;">Reach us through any of these channels. We'd love to hear from you.</p>
+
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📍</div>
+            <div>
+              <div class="contact-info-label">Headquarters</div>
+              <div class="contact-info-value">I.G. Colony, Bhagwanpur, Muzaffarpur, Bihar</div>
+            </div>
+          </div>
+
+
+
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📞</div>
+            <div>
+              <div class="contact-info-label">Phone (Manoj Sir)</div>
+              <div class="contact-info-value"><a href="tel:9006332152" style="color:var(--accent-cyan);">9006332152</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📞</div>
+            <div>
+              <div class="contact-info-label">Phone (Kumar Adarsh)</div>
+              <div class="contact-info-value"><a href="tel:8340364658" style="color:var(--accent-cyan);">8340364658</a></div>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-info-icon">✉️</div>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <div class="contact-info-value">info@vaishalieducation.com</div>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <a href="https://wa.me/919006332152" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">💬</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+
+        <div class="contact-form-card reveal-right">
+          <h3 class="contact-form-title">Send Us a Message</h3>
+          <p class="contact-form-subtitle">Fill in the form and we'll get back to you within 24 hours.</p>
+
+          <form id="contact-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Full Name</label>
+                <input type="text" class="form-input" id="contact-name" placeholder="Your name" required autocomplete="name">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-phone">Phone Number</label>
+                <input type="tel" class="form-input" id="contact-phone" placeholder="+91 XXXXX XXXXX" required autocomplete="tel">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Email Address</label>
+                <input type="email" class="form-input" id="contact-email" placeholder="your@email.com" autocomplete="email">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-course">Course Interest</label>
+                <select class="form-select" id="contact-course">
+                  <option value="">Select a course</option>
+                  <option value="neet">NEET Preparation</option>
+                  <option value="jee">JEE Main + Advanced</option>
+                  <option value="foundation">Foundation (Class 8-10)</option>
+                  <option value="board-11">Board — Class 11</option>
+                  <option value="board-12">Board — Class 12</option>
+                  <option value="nda">NDA</option>
+                  <option value="cuet">CUET</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label class="form-label" for="contact-message">Your Message</label>
+                <textarea class="form-textarea" id="contact-message" placeholder="Tell us about your goals and any questions you have..." rows="4"></textarea>
+              </div>
+
+              <div class="form-group full-width form-submit">
+                <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+                  Send Message <span class="btn-icon">→</span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <div class="nav-logo-icon">VE</div>
+            <div class="nav-logo-text">
+              <span class="nav-logo-name">Vaishali Education</span>
+              <span class="nav-logo-tagline">Excellence in Education</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            Muzaffarpur's premier coaching institute transforming students into achievers since 2010. Expert faculty, proven results, personalised mentoring.
+          </p>
+          <div class="contact-social">
+            <a href="https://wa.me/919006332152" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">💬</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="Instagram">📸</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href="#about" class="footer-link">About Us</a>
+            <a href="#courses" class="footer-link">Our Courses</a>
+            <a href="#results" class="footer-link">Results</a>
+            <a href="#faculty" class="footer-link">Faculty</a>
+            <a href="#batches" class="footer-link">Upcoming Batches</a>
+            <a href="#faq" class="footer-link">FAQs</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Programs</h4>
+          <div class="footer-links">
+            <a href="#courses" class="footer-link">NEET (UG)</a>
+            <a href="#courses" class="footer-link">JEE Main + Adv</a>
+            <a href="#courses" class="footer-link">Foundation (Class 8-10)</a>
+            <a href="#courses" class="footer-link">Board (11th & 12th)</a>
+            <a href="#courses" class="footer-link">NDA / CUET</a>
+            <a href="#scholarship" class="footer-link">Scholarships</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Stay Updated</h4>
+          <p class="footer-newsletter-desc">Subscribe for exam updates, batch notifications, and educational tips.</p>
+          <form class="newsletter-form" id="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required autocomplete="email">
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+          </form>
+          <div style="margin-top:20px;">
+            <div style="font-size:13px;color:var(--text-tertiary);margin-bottom:6px;">Helpline Numbers:</div>
+            <div style="font-size:14px;color:var(--text-secondary);"><a href="tel:9006332152" style="color:var(--accent-cyan);">9006332152</a> (Manoj Sir)</div>
+            <div style="font-size:14px;color:var(--text-secondary);margin-top:4px;"><a href="tel:8340364658" style="color:var(--accent-cyan);">8340364658</a> (Kumar Adarsh)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span class="footer-copyright">&copy; 2026 Vaishali Education. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          <a href="#" class="footer-bottom-link">Terms of Service</a>
+          <a href="#" class="footer-bottom-link">Refund Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ FLOATING WHATSAPP ═══════════════ -->
+  <a href="https://wa.me/919006332152?text=Hi%2C%20I%20am%20interested%20in%20Vaishali%20Education%20courses.%20Please%20share%20details." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    💬
+    <span class="whatsapp-tooltip">Chat with us!</span>
+  </a>
+
+  <!-- ═══════════════ DEMO MODAL ═══════════════ -->
+  <div class="modal-overlay" id="demo-modal">
+    <div class="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">✕</button>
+
+      <div id="modal-form-content">
+        <div class="modal-icon">🎯</div>
+        <h3 class="modal-title">Book a Free Demo Class</h3>
+        <p class="modal-subtitle">Experience our teaching methodology firsthand. Zero obligation, 100% value.</p>
+
+        <form id="demo-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="demo-name">Student Name</label>
+              <input type="text" class="form-input" id="demo-name" placeholder="Full name" required autocomplete="name">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="demo-phone">Phone / WhatsApp</label>
+              <input type="tel" class="form-input" id="demo-phone" placeholder="+91 XXXXX XXXXX" required autocomplete="tel">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="demo-class">Current Class</label>
+              <select class="form-select" id="demo-class" required>
+                <option value="">Select class</option>
+                <option value="8">Class 8</option>
+                <option value="9">Class 9</option>
+                <option value="10">Class 10</option>
+                <option value="11">Class 11</option>
+                <option value="12">Class 12</option>
+                <option value="dropper">Dropper / Repeater</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="demo-course">Interested Course</label>
+              <select class="form-select" id="demo-course" required>
+                <option value="">Select course</option>
+                <option value="neet">NEET Preparation</option>
+                <option value="jee">JEE Main + Advanced</option>
+                <option value="foundation">Foundation (Class 8-10)</option>
+                <option value="board">Board Exam Coaching</option>
+                <option value="nda">NDA</option>
+                <option value="cuet">CUET</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" class="btn btn-gold" style="width:100%;justify-content:center;">
+                Book My Free Demo <span class="btn-icon">→</span>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-success" id="modal-success">
+        <div class="modal-success-icon">✅</div>
+        <h4 class="modal-success-title">Demo Class Booked!</h4>
+        <p class="modal-success-desc">We'll call you within 2 hours to confirm your slot. See you in class!</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
